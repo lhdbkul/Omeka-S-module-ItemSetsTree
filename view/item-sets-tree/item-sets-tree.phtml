@@ -4,7 +4,7 @@
     $linkEmpty = $linkEmpty ?? true;
 ?>
 <?php if (!empty($itemSetsTree)): ?>
-    <ul>
+    <ul class="item-sets-tree">
         <?php foreach ($itemSetsTree as $itemSetsTreeNode): ?>
             <?php $itemSet = $itemSetsTreeNode['itemSet']; ?>
             <?php if ($displayCount || !$linkEmpty): ?>
