@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 09:36+0200\n"
+"POT-Creation-Date: 2026-01-07 13:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,7 +32,7 @@ msgstr ""
 msgid "This item set has no parent item set"
 msgstr ""
 
-#: Module.php:316
+#: Module.php:326
 msgid "All item sets (including ancestors) internal identifiers"
 msgstr ""
 
@@ -62,27 +62,27 @@ msgstr ""
 msgid "Sort by title"
 msgstr ""
 
-#: src/Form/SiteSettingsFieldset.php:18
-msgid "Display"
-msgstr ""
-
-#: src/Form/SiteSettingsFieldset.php:19
+#: src/Form/SiteSettingsFieldset.php:20
 msgid "Choose which item sets to display in the tree"
 msgstr ""
 
-#: src/Form/SiteSettingsFieldset.php:21
+#: src/Form/SiteSettingsFieldset.php:22
 msgid ""
 "Display all item sets without considering what is selected in the Resources "
 "tab"
 msgstr ""
 
-#: src/Form/SiteSettingsFieldset.php:22
+#: src/Form/SiteSettingsFieldset.php:23
 msgid "Display only item sets selected in the Resources tab"
 msgstr ""
 
-#: src/Form/SiteSettingsFieldset.php:23
+#: src/Form/SiteSettingsFieldset.php:24
 msgid ""
 "Display only item sets selected in the Resources tab and their descendants"
+msgstr ""
+
+#: src/Controller/Admin/IndexController.php:59
+msgid "Item sets tree successfully saved"
 msgstr ""
 
 #: src/Site/BlockLayout/ItemSetsTree.php:41
@@ -101,6 +101,6 @@ msgstr ""
 msgid "Link for empty item sets"
 msgstr ""
 
-#: src/Controller/Admin/IndexController.php:59
-msgid "Item sets tree successfully saved"
+#: src/Site/ResourcePageBlockLayout/ItemSetsWithAncestors.php:12
+msgid "Item sets (with ancestors)"
 msgstr ""

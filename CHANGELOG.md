@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+- Add translations to Transifex
+- Update french translation
 - Remove debug code displaying current language in resource page block output
 
 ## [0.7.4] - 2025-08-26
